@@ -5,7 +5,7 @@ public class Ex4 {
 	public static void main(String[] args) {
 
 		// Criando um objeto Scanner para ler a entrada do usuário
-		// Atualização arquivo
+		// Atualização arquivo 2
 		Scanner input = new Scanner(System.in);
 
 		System.out.println("Informe seu primeiro nome");
