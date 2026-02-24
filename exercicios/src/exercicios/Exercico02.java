@@ -20,6 +20,18 @@ public class Exercico02 {
 		System.out.println(" Qual o total de valor do mês: ");
 		double mes= input.nextDouble();
 		
+		System.out.println(" Qual o total de vendas no mês: ");
+		double venda= input.nextDouble();
+		
+		double p = (venda* 15)/ 100;
+		
+		double vend = salario + venda + p;
+		
+		System.out.println(" voce recebeu no mês: "+ venda);
+		
+		
+		
+		
 
 	}
 
