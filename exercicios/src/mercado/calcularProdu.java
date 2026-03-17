@@ -1,5 +1,7 @@
 package mercado;
 
+import mercado.mercado;
+
 public class calcularProdu {
 
 	public static void main(String[] args) {
