@@ -8,5 +8,18 @@ public class mercado {
 	int nmrLara;
 	double preçoLara;
 		
+	 public double obterReceitaMacas() {
+	        return nmrMaca * preçoMa;
+	    }
+	     
+	    public double obterReceitaLaranjas() {
+	        return nmrLara * preçoLara;
+	    }
+
+	    public double obterReceitaTotal() {
+	        return obterReceitaLaranjas() + obterReceitaMacas();
+	    }
+
+
 	}
 
