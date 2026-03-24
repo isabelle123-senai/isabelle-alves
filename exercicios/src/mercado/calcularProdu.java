@@ -29,8 +29,40 @@ public class calcularProdu {
 			m3.preçoMa =  10.00;
 			m3.nmrLara = 800;
 			m3.preçoLara = 1.00;
+			
+			mercado listaMercados[] = { m1, m2, m3 };
+
+			
+			double maiorReceitaMacas = 0;
+			mercado mercadoMaiorReceitaMacas = null;
+
+			for (int i = 0; i < listaMercados.length; i++) {
+				if (listaMercados[i].obterReceitaMacas() > maiorReceitaMacas) {
+					maiorReceitaMacas = listaMercados[i].obterReceitaMacas();
+					mercadoMaiorReceitaMacas = listaMercados[i];
+				}
+			}
+
+			System.out.println(mercadoMaiorReceitaMacas.nome);
+
 		
 
+			double menorReceitaLaranjas = Double.MAX_VALUE;
+			mercado mercadoMenorReceitaLaranjas = null;
+
+			for (int i = 0; i < listaMercados.length; i++) {
+				if (listaMercados[i].obterReceitaLaranjas() < menorReceitaLaranjas) {
+					menorReceitaLaranjas = listaMercados[i].obterReceitaLaranjas();
+					mercadoMenorReceitaLaranjas = listaMercados[i];
+				}
+			}
+
+			System.out.println(mercadoMenorReceitaLaranjas.nome);
+			
+			
+
+		}
+
 	}
-}
+
 
