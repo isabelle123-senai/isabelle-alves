@@ -19,8 +19,7 @@ public class ex03 {
         produto1.descricao = "Caderno em espiral tamanho médio";
         produto1.precoUnitario = 4.50;
         produto1.desconto = 15;
-
-
+        
         produto2.nome = "Caneta ESF";
         produto2.descricao = "Caneta esferográfica 5mm";
         produto2.precoUnitario = 1.20;
