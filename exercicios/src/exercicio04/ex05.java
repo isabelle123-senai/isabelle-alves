@@ -27,4 +27,16 @@ class Funcionario {
 
 public class ex05 {
 
+	 public static void main(String[] args) {
+
+	        Funcionario f1 = new Funcionario(1, "João", "Silva", 3000.0);
+
+	        System.out.println("Nome completo: " + f1.obterNomeCompleto());
+	        System.out.println("Salário anual: " + f1.obterSalarioAnual());
+
+	        f1.aumentarSalario(10);
+
+	        System.out.println("Novo salário mensal: " + f1.salarioMensal);
+	        System.out.println("Novo salário anual: " + f1.obterSalarioAnual());
+	    }
 }
