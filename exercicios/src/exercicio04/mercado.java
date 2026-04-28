@@ -1,6 +1,6 @@
 package exercicio04;
 
-class mercado {
+public class mercado {
     String nomeMercado;
     int numMacasVendidasAno;
     double precoMaca;
